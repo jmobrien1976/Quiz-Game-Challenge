@@ -1,0 +1,54 @@
+.welcome {
+    text-align:center;
+    font-size: 300%;
+    background-color: black;
+    color: white;
+}
+
+.start-game {
+background-color: gold;
+color: black;
+width: 10%;
+}
+
+.scoreboard {
+    display: flex;
+    background-color: gold;
+    width: 100%;
+    height: 40px;
+}
+
+#highscore {
+    color: black;
+    text-align: left;
+    position: relative;
+    top: 25%;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+#timer {
+    display: flex;
+    margin-left: auto;
+    color: black;
+    /* justify-content: right; */
+    align-items: center;
+    top: 25%;
+    padding-right: 20px;
+    font-weight: bolder;
+    }
+
+    #questionPage {
+        display:none;
+    }
+
+    #endTimes{
+        display:none;
+        align-items: center;
+
+    }
+    .mainScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
